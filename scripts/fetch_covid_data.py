@@ -22,5 +22,6 @@ with pd.read_csv(url, chunksize=chunk_size) as reader:
             chunk.to_csv(f, index=False, header=(i == 0))  # Write header only once
             total_rows += len(chunk)
 
+
 print(f" Finished! Total rows: {total_rows}")
 print(f" Data saved to: {filename}")
