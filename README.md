@@ -13,6 +13,7 @@ Hi,This project is all about analyzing COVID-19 data using PySpark and visualizi
 1. Clone this repo to your local machine.
 
   git clone https://github.com/monalisharoutray/covid-data-pipeline.git
+  
   cd covid-data-pipeline
   
 2. Run the PySpark script inside scripts/ to process the data.
