@@ -18,7 +18,12 @@ Hi,This project is all about analyzing COVID-19 data using PySpark and visualizi
   
 2. Run the PySpark script inside scripts/ to process the data.
 
-  python scripts/covid_processing.py
+   Pre-requisites:
+    Make sure you have the following installed:
+    Python (preferably 3.7+)
+    Java (JDK 8 or higher)
+    Apache Spark
+    PySpark (Python bindings for Spark)
 
 3. Open the .pbix file in Power BI to view the report.
 4. You can also update the source in Power BI to refresh with new data.
