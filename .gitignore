@@ -1,3 +1,10 @@
-data/raw/owid_covid_data_2025-04-06.csv
-data/raw/owid_covid_data_2025-04-06.csv
-git-filter-repo
+# Ignore data folders
+data/raw/
+data/processed/
+
+# Ignore Power BI cache files
+*.pbix~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
