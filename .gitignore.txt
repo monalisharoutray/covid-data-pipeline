@@ -1,0 +1,10 @@
+# Ignore data folders
+data/raw/
+data/processed/
+
+# Ignore Power BI cache files
+*.pbix~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
